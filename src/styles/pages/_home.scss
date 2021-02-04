@@ -1,9 +1,3 @@
-//main: ../main.scss
-
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
-
 .index {
   .content {
     display: flex;
@@ -33,6 +27,7 @@
 
 .form-wrap {
   form {
+    padding-left: 15px;
     padding-right: 40px;
   }
 
@@ -84,6 +79,19 @@
     }
   }
 
+  .__json-pretty__ {
+    background-color: $gray;
+  }
+  
+  .__json-pretty__,
+  .__json-pretty__ .__json-string__,
+  .__json-pretty__ .__json-key__,
+  .__json-pretty__ .__json-value__,
+  .__json-pretty__ .__json-boolean__ {
+    opacity: 1;
+    color: $darkest-gray;
+  }
+
   .t-title {
     padding: 29px 25px 28px;
     margin: 0;
@@ -101,12 +109,6 @@
     right: 0;
   
     height: calc(100vh - 85px);
-  }
-}
-
-@include respond-to(lg) {
-  .form-wrap form {
-    padding-left: 15px;
   }
 }
 
