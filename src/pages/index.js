@@ -89,7 +89,7 @@ const Index = () => {
               <div className="reminder-wrap">
                 <p className="t-text">For test accounts, use <span>4111111111111111</span> with any future dated expiry date and any three digit CVV. The tokenizer does not validate cards.</p>
               </div>
-              <button className="btn-orange w-100">Submit and tokenize</button>
+              <button className="btn-orange w-100" type="submit">Submit and tokenize</button>
             </form>
           </div>
         </div>
