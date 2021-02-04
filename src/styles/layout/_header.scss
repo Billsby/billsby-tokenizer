@@ -38,3 +38,9 @@ header {
     color: $white;
   }
 }
+
+@include respond-to(sm-down) {
+  header .t-logo {
+    font-size: 13px;
+  }
+}
