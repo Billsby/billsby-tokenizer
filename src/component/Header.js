@@ -17,10 +17,10 @@ const Header = () => {
             <img src={siteLogo} className="logo" alt="Billsby" />
             <span className="t-logo">Card Tokenizer</span>
           </Link>
-          <button class={`toggle-menu burger-close ${toggleMenu && 'burger-open'}`} onClick={handleToggleMenu}>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <button className={`toggle-menu burger-close ${toggleMenu && 'burger-open'}`} onClick={handleToggleMenu}>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
           <div className={`menu-holder ${toggleMenu && 'menu-open'}`}>
             <button className="btn-white">Download on Github</button>
