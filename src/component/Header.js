@@ -23,7 +23,7 @@ const Header = () => {
             <span className="icon-bar"></span>
           </button>
           <div className={`menu-holder ${toggleMenu && 'menu-open'}`}>
-            <button className="btn-white">Download on Github</button>
+            <a href="https://github.com/Billsby/billsby-tokenizer-react/archive/master.zip" className="btn-white" download>Download on Github</a>
           </div>
         </div>
       </div>
