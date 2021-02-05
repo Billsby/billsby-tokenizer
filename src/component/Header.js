@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header-content">
           <Link to="/" className="navbar-logo">
             <img src={siteLogo} className="logo" alt="Billsby" />
-            <span className="t-logo">Card Tokenizer (React)</span>
+            <span className="t-logo">Card Tokenizer</span>
           </Link>
           <button className={`toggle-menu burger-close ${toggleMenu && 'burger-open'}`} onClick={handleToggleMenu}>
             <span className="icon-bar"></span>
