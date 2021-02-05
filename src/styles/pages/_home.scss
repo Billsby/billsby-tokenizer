@@ -57,7 +57,7 @@
   .console-body {
     padding: 20px 25px;
     margin-top: 80px;
-    height: calc(100vh - 205px); //minus height of header , height of console header , padding to & bottom in console body
+    height: calc(100vh - 195.34px); //minus height of header , height of console header , padding to & bottom in console body
     overflow-y: auto;
 
     &::-webkit-scrollbar {
@@ -108,7 +108,7 @@
     bottom: 0;
     right: 0;
   
-    height: calc(100vh - 85px);
+    height: calc(100vh - 75.34px);
   }
 }
 
