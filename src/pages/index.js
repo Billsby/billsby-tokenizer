@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import 'react-json-pretty/themes/monikai.css';
 import JSONPretty from 'react-json-pretty';
 
