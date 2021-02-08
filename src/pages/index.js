@@ -79,8 +79,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="reminder-wrap">
-                {/* <p className="t-text">For test accounts, use <span>4111111111111111</span> with any future dated expiry date and any three digit CVV. The tokenizer does not validate cards.</p> */}
-                <p className="t-text">This is an example of the Billsby Card Tokenizer implemented in React, which you can use as the basis of your own projects</p>
+                <p className="t-text">For test accounts, use <span>4111111111111111</span> with any future dated expiry date and any three digit CVV. The tokenizer does not validate cards.</p>
               </div>
               <input id="submit-button" className="btn-orange w-100" type="submit" value="Submit and tokenize" disabled />
             </form>
